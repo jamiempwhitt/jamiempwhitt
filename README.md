@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @jamiempwhitt and I'm a Masters student and Java full stack bootcamp attendee
-- 👀 I’m interested in ... full-stack development, web design, web applications for telehealth sector, OOP, Database Design, and hardware
+- 👀 I’m interested in ... full-stack development, web design, mobile applications for telehealth sector, OOP, Database Design, and hardware
 - 🌱 I’m currently learning ... PHP
 - 💞️ I’m looking to collaborate on ... mobile applications
 - 📫 How to reach me ...jmpuente1024@gmail.com
