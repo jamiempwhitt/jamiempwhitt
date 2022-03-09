@@ -1,0 +1,57 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* TO DO */
+/*  
+   Make sidenav trigger always available to close
+   Make padding better at medium size so sidenav isn't on top'*/
+
+body {
+    font-family: 'Montserrat', Medium 500;
+}
+
+
+
+
+/* Side Navigator */
+
+/* Splash color */
+
+
+
+/*Body of Website */
+/*First page */
+
+.title-text {
+    font-family: 'Arial', cursive; 
+    letter-spacing: 6px;
+    margin: auto;
+    padding: 15px;
+    font-weight: bolder;
+    color: white;
+    font-size: 400%;
+}
+.animate {
+    font-family: 'Waiting for the Sunrise', cursive;  
+    letter-spacing: 6px; 
+    font-size: 300%;
+    font-weight: light;
+    color: white;
+
+}
+
+
+
+
+
+.Home {
+    height:200vh;
+    text-align: center;
+background: linear-gradient(00deg, rgba(67,160,71,1) 0%, rgba(27,94,32,1) 26%, rgba(33,33,33,1) 100%);
+}
+

@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset='utf-8'>
+<!--Import Google Icon Font-->
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!--Import materialize.css-->
+<link rel="stylesheet" type="text/css"
+	href="C:\Users\jmpue\Desktop\TTS\HTML Basics\materialize.min.css"
+	media="screen" />
+
+
+<!--Import local CSS-->
+<link type="text/css" rel="stylesheet"
+	href="/SubscriberList/src/main/resources/static/style.css" />
+
+<!-- import jQuery -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"/>
+
+<!-- Import Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto%7CRock+Salt%7CWaiting+for+the+Sunrise"
+	rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jamie Puente | Connect</title>
+
+
+
+<body>
+
+
+
+	<div class="navbar">
+		<nav>
+			<div class="nav-wrapper grey darken-4">
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+					class="material-icons">menu</i></a>
+
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="subscriber/index.html">Home</a></li>
+					<li><a href="subscriber/Education.html">Education</a></li>
+					<li><a href="subscriber/Skills.html">Skills</a></li>
+					<li><a href="subscriber/RelatedProjects.html">Related
+							Projects</a></li>
+					<li><a href="subscriber/ConnectJP.html">Connect</a></li>
+
+
+				</ul>
+			</div>
+		</nav>
+
+
+		<ul class="sidenav grey darken-4" id="mobile-demo">
+			<li><a class="white-text waves-effect"
+				href="subscriber/index.html">Home</a></li>
+			<li><a class="white-text waves-effect"
+				href="subscriber/Education.html" class="white-text">Education</a></li>
+			<li><a class="white-text waves-effect"
+				href="subscriber/Skills.html">Skills</a></li>
+			<li><a class="white-text waves-effect"
+				href="subscriber/RelatedProjects.html">Related Projects</a></li>
+			<li><a class="white-text waves-effect"
+				href="subscriber/ConnectJP.html">Connect</a></li>
+
+		</ul>
+
+	</div>
+
+
+	<main>
+		
+		<div class="Home">
+			<div class="container">
+				<div class="title-text">
+					<h4 id="profileAnchor">Connect with Me</h4>
+
+					<h6>Email: jamie.puente@bobcats.gcsu.edu</h6>
+
+					<h6>OR</h6>
+					<h6>Contact me via this website.</h6>
+
+				</div>
+				<div class="animate">
+					<div id="typedtext"></div>
+				</div>
+
+				<div class="row">
+					<p>Please use the form below to sign up as a subscriber:</p>
+					<form action="#" th:action="@{/}" th:object="${subscriber}"
+						method="post">
+						<table>
+							<tr>
+								<td>First Name:</td>
+								<td><input type="text" th:field="*{firstName}" /></td>
+							</tr>
+							<tr>
+								<td>Last Name:</td>
+								<td><input type="text" th:field="*{lastName}" /></td>
+							</tr>
+							<tr>
+								<td>Username:</td>
+								<td><input type="text" th:field="*{userName}" /></td>
+							</tr>
+							<tr>
+								<td><button type="submit">Submit Your Name</button></td>
+							</tr>
+						</table>
+					
+
+
+
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+	</main>
+	<!-- Javascript -->
+	<!-- Materialize import -->
+	<script src="media/js/materialize.min.js"></script>
+	<!-- SideNavigation -->
+	<script type="text/javascript">
+        $(document).ready(function(){
+    $('.sidenav').sidenav();
+   var instance = M.Sidenav.getInstance(elem);
+  });       
+        $('.dropdown-trigger').dropdown();
+    </script>
+
+
+	<!--SideNav Popout -->
+	<script type="text/javascript">
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+      </script>
+</body>
+
+
+
+
+
+
+
+</html>

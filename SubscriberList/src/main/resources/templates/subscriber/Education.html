@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='utf-8'>
+<!--Import Google Icon Font-->
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!--Import materialize.css-->
+<link rel="stylesheet" type="text/css"
+	href="C:\Users\jmpue\Desktop\TTS\HTML Basics\materialize.min.css"
+	media="screen" />
+
+
+<!--Import local CSS-->
+<link type="text/css" rel="stylesheet"
+	href="/SubscriberList/src/main/resources/static/style.css" />
+
+<!-- import jQuery -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Import Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto%7CRock+Salt%7CWaiting+for+the+Sunrise"
+	rel="stylesheet">
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jamie Puente | Education</title>
+
+</head>
+
+<body>
+
+	<!-- Body of Site -->
+	<!-- SideNavBar -->
+
+	<div class="navbar">
+		<nav>
+			<div class="nav-wrapper grey darken-4">
+
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+					class="material-icons">menu</i></a>
+
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="subscriber/index.html">Home</a></li>
+					<li><a href="subscriber/Education.html">Education</a></li>
+					<li><a href="subscriber/Skills.html">Skills</a></li>
+					<li><a href="subscriber/RelatedProjects.html">Related
+							Projects</a></li>
+					<li><a href="subscriber/ConnectJP.html">Connect</a></li>
+
+
+				</ul>
+			</div>
+		</nav>
+
+
+		<ul class="sidenav grey darken-4" id="mobile-demo">
+			<li><a class="white-text waves-effect"
+				href="subscriber/index.html">Home</a></li>
+			<li><a class="white-text waves-effect"
+				href="subscriber/Education.html" class="white-text">Education</a></li>
+			<li><a class="white-text waves-effect"
+				href="subscriber/Skills.html">Skills</a></li>
+			<li><a class="white-text waves-effect"
+				href="subscriber/RelatedProjects.html">Related Projects</a></li>
+			<li><a class="white-text waves-effect"
+				href="subscriber/ConnectJP.html">Connect</a></li>
+	</div>
+
+
+
+
+
+	<main>
+		<!-- Connect Page -->
+		<div class="Home">
+			<div class="container">
+				<div class="title-text">
+					<h4 id="profileAnchor">Education</h4>
+
+					<h4>
+						<ul>
+							<a href="https://www.ua.edu">
+								<li>University of Alabama, Bachelors of Science in Biology</li>
+							</a>
+							<!--Link-->
+							<a href="https://gcsu.edu">
+								<li>Georgia State, Masters in Management Information
+									Systems</li>
+						</ul>
+					</h4>
+	</main>
+	<!-- Javascript -->
+	<!-- Materialize import -->
+	<script src="media/js/materialize.min.js"></script>
+	<!-- SideNavigation -->
+	<script type="text/javascript">
+        $(document).ready(function(){
+    $('.sidenav').sidenav();
+   var instance = M.Sidenav.getInstance(elem);
+  });       
+        $('.dropdown-trigger').dropdown();
+    </script>
+
+
+	<!--SideNav Popout -->
+	<script type="text/javascript">
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+      </script>
+</body>
+
+
+
+
+
+
+
+</html>
