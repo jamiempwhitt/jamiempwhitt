@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @jamiempwhitt and I'm a Masters student and Java full stack bootcamp attendee
+- 👋 Hi, I’m @jamiempwhitt and I'm a Masters student and Java full stack bootcamp attendee just beginning my programming journey
 - 👀 I’m interested in ... full-stack development, web design, mobile applications for telehealth sector, OOP, Database Design, and hardware
 - 🌱 I’m currently learning ... PHP
 - 💞️ I’m looking to collaborate on ... mobile applications
